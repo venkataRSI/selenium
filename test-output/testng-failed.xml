@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" parallel="none">
   <test name="Default test(failed)" parallel="none">
     <classes>
-      <class name="testpackage.MavenTest1">
+      <class name="testpackage.FirefoxTest">
         <methods>
-          <include name="afterTest"/>
           <include name="beforeTest"/>
           <include name="test"/>
+          <include name="afterTest"/>
         </methods>
-      </class> <!-- testpackage.MavenTest1 -->
+      </class> <!-- testpackage.FirefoxTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

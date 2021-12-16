@@ -1,20 +1,21 @@
 package testpackage;
 import java.util.concurrent.TimeUnit;  
 import org.openqa.selenium.WebDriver;  
-import org.openqa.selenium.chrome.ChromeDriver;  
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.AfterTest;  
 import org.testng.annotations.BeforeTest;  
 import org.testng.annotations.Test; 
-public class MavenTest1 {
-	public String baseUrl = "https://www.google.com/";  
-	String driverPath = "C://Software//Selenium//chromedriver_win32//chromedriver.exe";  
+public class EdgeTest {
+	public String baseUrl = "https://www.youtube.com/";  
+	String driverPath = "C://Software//Webdrive//Edge//msedgedriver.exe";  
 	public WebDriver driver ;   
 	@Test             
 	public void test() {      
 	// set the system property for Chrome driver      
-	System.setProperty("webdriver.chrome.driver", driverPath);  
+	System.setProperty("webdriver.edge.driver", driverPath);  
 	// Create driver object for CHROME browser  
-	driver = new ChromeDriver();  
+	driver = new EdgeDriver();  
 	driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);  
 	driver.manage().window().maximize();  
 	driver.get(baseUrl);  
@@ -35,4 +36,3 @@ public class MavenTest1 {
 	System.out.println("after test");  
 	}         
 	}  
-
