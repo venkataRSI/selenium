@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5384" started-at="2021-12-16T08:50:07Z" finished-at="2021-12-16T08:50:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5384" started-at="2021-12-16T08:50:07Z" finished-at="2021-12-16T08:50:13Z">
+      <class name="testpackage.MavenTest1">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testpackage.MavenTest1@1fe20588]" name="beforeTest" is-config="true" duration-ms="3" started-at="2021-12-16T14:20:07Z" finished-at="2021-12-16T14:20:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="test()[pri:0, instance:testpackage.MavenTest1@1fe20588]" name="test" duration-ms="4742" started-at="2021-12-16T14:20:07Z" finished-at="2021-12-16T14:20:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testpackage.MavenTest1@1fe20588]" name="afterTest" is-config="true" duration-ms="633" started-at="2021-12-16T14:20:12Z" finished-at="2021-12-16T14:20:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testpackage.MavenTest1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
