@@ -2,38 +2,38 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="16064" started-at="2021-12-16T10:57:15Z" finished-at="2021-12-16T10:57:31Z">
+  <suite name="Default suite" duration-ms="10435" started-at="2021-12-20T04:28:57Z" finished-at="2021-12-20T04:29:08Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="16064" started-at="2021-12-16T10:57:15Z" finished-at="2021-12-16T10:57:31Z">
+    <test name="Default test" duration-ms="10435" started-at="2021-12-20T04:28:57Z" finished-at="2021-12-20T04:29:08Z">
       <class name="testpackage.EdgeTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testpackage.EdgeTest@6ce139a4]" name="beforeTest" is-config="true" duration-ms="5" started-at="2021-12-16T16:27:15Z" finished-at="2021-12-16T16:27:15Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testpackage.EdgeTest@4e91d63f]" name="beforeTest" is-config="true" duration-ms="4" started-at="2021-12-20T09:58:57Z" finished-at="2021-12-20T09:58:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testpackage.MavenTest1@2f112965]" name="beforeTest" is-config="true" duration-ms="0" started-at="2021-12-16T16:27:15Z" finished-at="2021-12-16T16:27:15Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testpackage.MavenTest1@2ddc8ecb]" name="beforeTest" is-config="true" duration-ms="0" started-at="2021-12-20T09:58:57Z" finished-at="2021-12-20T09:58:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="test()[pri:0, instance:testpackage.EdgeTest@6ce139a4]" name="test" duration-ms="10792" started-at="2021-12-16T16:27:15Z" finished-at="2021-12-16T16:27:26Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:testpackage.EdgeTest@4e91d63f]" name="test" duration-ms="6475" started-at="2021-12-20T09:58:57Z" finished-at="2021-12-20T09:59:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:testpackage.EdgeTest@6ce139a4]" name="afterTest" is-config="true" duration-ms="778" started-at="2021-12-16T16:27:30Z" finished-at="2021-12-16T16:27:31Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testpackage.EdgeTest@4e91d63f]" name="afterTest" is-config="true" duration-ms="775" started-at="2021-12-20T09:59:06Z" finished-at="2021-12-20T09:59:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:testpackage.MavenTest1@2f112965]" name="afterTest" is-config="true" duration-ms="622" started-at="2021-12-16T16:27:31Z" finished-at="2021-12-16T16:27:31Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testpackage.MavenTest1@2ddc8ecb]" name="afterTest" is-config="true" duration-ms="555" started-at="2021-12-20T09:59:07Z" finished-at="2021-12-20T09:59:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- testpackage.EdgeTest -->
       <class name="testpackage.MavenTest1">
-        <test-method status="PASS" signature="test()[pri:0, instance:testpackage.MavenTest1@2f112965]" name="test" duration-ms="3857" started-at="2021-12-16T16:27:26Z" finished-at="2021-12-16T16:27:30Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:testpackage.MavenTest1@2ddc8ecb]" name="test" duration-ms="2617" started-at="2021-12-20T09:59:04Z" finished-at="2021-12-20T09:59:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
       </class> <!-- testpackage.MavenTest1 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
