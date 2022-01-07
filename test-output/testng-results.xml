@@ -1,24 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="3850" started-at="2021-12-20T06:24:41Z" finished-at="2021-12-20T06:24:45Z">
+  <suite name="Suite" duration-ms="10253" started-at="2022-01-07T06:18:54Z" finished-at="2022-01-07T06:19:04Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="3850" started-at="2021-12-20T06:24:41Z" finished-at="2021-12-20T06:24:45Z">
-      <class name="testpackage.MavenTest1">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testpackage.MavenTest1@1fe20588]" name="beforeTest" is-config="true" duration-ms="5" started-at="2021-12-20T11:54:41Z" finished-at="2021-12-20T11:54:41Z">
+    <test name="Test" duration-ms="10253" started-at="2022-01-07T06:18:54Z" finished-at="2022-01-07T06:19:04Z">
+      <class name="testpackage.EdgeTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testpackage.EdgeTest@2f112965]" name="beforeTest" is-config="true" duration-ms="5" started-at="2022-01-07T11:48:54Z" finished-at="2022-01-07T11:48:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="test()[pri:0, instance:testpackage.MavenTest1@1fe20588]" name="test" duration-ms="3262" started-at="2021-12-20T11:54:41Z" finished-at="2021-12-20T11:54:44Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testpackage.MavenTest1@6ce139a4]" name="beforeTest" is-config="true" duration-ms="0" started-at="2022-01-07T11:48:54Z" finished-at="2022-01-07T11:48:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="test()[pri:0, instance:testpackage.EdgeTest@2f112965]" name="test" duration-ms="5610" started-at="2022-01-07T11:48:57Z" finished-at="2022-01-07T11:49:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:testpackage.MavenTest1@1fe20588]" name="afterTest" is-config="true" duration-ms="579" started-at="2021-12-20T11:54:44Z" finished-at="2021-12-20T11:54:45Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testpackage.EdgeTest@2f112965]" name="afterTest" is-config="true" duration-ms="725" started-at="2022-01-07T11:49:02Z" finished-at="2022-01-07T11:49:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testpackage.MavenTest1@6ce139a4]" name="afterTest" is-config="true" duration-ms="611" started-at="2022-01-07T11:49:03Z" finished-at="2022-01-07T11:49:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testpackage.EdgeTest -->
+      <class name="testpackage.MavenTest1">
+        <test-method status="PASS" signature="test()[pri:0, instance:testpackage.MavenTest1@6ce139a4]" name="test" duration-ms="3293" started-at="2022-01-07T11:48:54Z" finished-at="2022-01-07T11:48:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
       </class> <!-- testpackage.MavenTest1 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
